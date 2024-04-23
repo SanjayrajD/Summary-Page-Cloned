@@ -1,0 +1,146 @@
+.outerbox 
+{
+    width: 610px;
+    height:380px;
+    margin: 130px 0px 0px 369px;
+    display: flex;
+    box-shadow: 20px 20px 20px 10px violet;
+    border-radius: 20px;
+}
+.outerbox .lbox
+{
+    background-color: #5A3DF9;
+    width: 270px;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+.outerbox p 
+{
+    text-align: center;
+    color: white;
+    font-size: 19px;
+}
+.outerbox .outercircle 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.outerbox .lbox .round 
+{
+    width:80px;
+    height:80px;
+    background-color: #462BDC;
+    border-radius: 150px;
+    padding: 38px;
+}
+.outerbox .lbox b
+{
+    font-size: 55px;
+    color: white;
+}
+.outerbox .lbox .round 
+{
+    color: rgb(187, 175, 175);
+}
+.outerbox .round h1
+{
+    font-size: 50px;
+    color: white;
+}
+h2 
+{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+#description 
+{
+    color: rgb(216, 203, 203);
+    font-size: 17px;
+    line-height: 1.5;
+}
+.outerbox .rbox 
+{
+    width: 270px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.outerbox .rbox h3
+{
+    font-size: 20px;
+}
+.outerbox .rbox .innerbox
+{
+
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+   padding:9px;
+}
+.outerbox .innerbox .red 
+{
+    border-radius: 8px;
+    background-color: rgba(241, 0, 0, 0.19);
+    height: 20px;
+    padding: 10px;
+    font-size: 19px;
+    color: red;
+    font-weight: bolder;
+}
+
+.outerbox .innerbox .yellow
+{
+    border-radius: 8px;
+    background-color: rgb(241, 241, 6,0.19);
+    height: 20px;
+    padding: 10px;
+    font-size: 19px;
+    color: rgb(199, 199, 39);
+    font-weight: bolder;
+    
+}.outerbox .innerbox .green
+{
+    border-radius:8px;
+    background-color: rgba(3, 247, 3, 0.19);
+    height: 20px;
+    padding: 10px;
+    font-size: 19px;
+    color: green;
+    font-weight: bolder;
+    
+}
+.outerbox .innerbox .violet
+{
+    border-radius: 8px;
+    background-color: rgb(250, 4, 250,0.19);
+    height: 20px;
+    padding: 10px;
+    font-size: 19px;
+    color: rgb(248, 7, 248);
+    font-weight: bolder;
+}
+button 
+{
+    width: 270px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #0d0349;
+    color: white;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px)
+{
+ .outerbox 
+{
+    width: 300px;
+    height:380px;
+    margin: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+}   
+}
